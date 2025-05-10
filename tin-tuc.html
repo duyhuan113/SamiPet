@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tin tức - Pet Shop Hà Nội</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="media/samie-logo.png" alt="Logo" class="me-2" style="width: 40px; height: 40px;">
+          <span class="fw-bold text-primary">PetShop</span>
+          <span class="fw-bold text-danger">Samie</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Trang chủ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="san-pham-moi.html">Sản phẩm mới</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                Danh mục
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Thức ăn cho chó</a></li>
+                <li><a class="dropdown-item" href="#">Thức ăn cho mèo</a></li>
+                <li><a class="dropdown-item" href="#">Phụ kiện thú cưng</a></li>
+                <li><a class="dropdown-item" href="#">Đồ chơi thú cưng</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="dich-vu-spa.html">Dịch vụ Spa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="tin-tuc.html">Tin tức</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <a href="login.html" class="btn btn-outline-primary me-2">
+              <i class="bi bi-person"></i> Đăng nhập
+            </a>
+            <a href="#" class="btn btn-outline-danger position-relative">
+              <i class="bi bi-cart"></i>
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                0
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Page header -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h1 class="display-5 fw-bold mb-3">Tin tức và chia sẻ kinh nghiệm chăm sóc thú cưng của Samie Pet Shop</h1>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Trang chủ</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Tin tức</li>
+        </ol>
+      </nav>
+    </div>
+  </section>
+
+  <!-- News Content -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row">
+        <!-- Main content -->
+        <div class="col-lg-8">
+          <!-- Featured article -->
+          <div class="card border-0 shadow-sm mb-5">
+            <img src="https://images.pexels.com/photos/1378849/pexels-photo-1378849.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Chăm sóc chó con">
+            <div class="card-body p-4">
+              <div class="d-flex align-items-center mb-3">
+                <span class="badge bg-primary me-2">Chó cưng</span>
+                <small class="text-muted">15 tháng 8, 2023</small>
+              </div>
+              <h2 class="card-title fw-bold mb-3">Cách chăm sóc chó con mới mua về nhà</h2>
+              <p class="card-text">Khi bạn mang một chú chó con về nhà, đó là một trải nghiệm thú vị nhưng cũng đầy thách thức. Việc chuẩn bị kỹ lưỡng và có kiến thức về cách chăm sóc đúng cách sẽ giúp cho chú cún của bạn khỏe mạnh và hạnh phúc...</p>
+              <a href="https://www.facebook.com/share/18jPw46iXi/?mibextid=wwXIfr" class="btn btn-primary">Đọc tiếp tại fanpage facebook của chúng tôi</a>
+            </div>
+          </div>
+          
+          <!-- Articles list -->
+          <div class="row g-4">
+            <!-- Article 1 -->
+            <div class="col-md-6">
+              <div class="card h-100 border-0 shadow-sm">
+                <img src="https://images.pexels.com/photos/1170986/pexels-photo-1170986.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Dinh dưỡng cho mèo">
+                <div class="card-body">
+                  <div class="d-flex align-items-center mb-2">
+                    <span class="badge bg-info me-2">Mèo cưng</span>
+                    <small class="text-muted">10 tháng 8, 2023</small>
+                  </div>
+                  <h5 class="card-title">Dinh dưỡng cần thiết cho mèo mang thai</h5>
+                  <p class="card-text">Mèo mẹ cần một chế độ dinh dưỡng đặc biệt trong thời gian mang thai để đảm bảo sức khỏe cho cả mèo mẹ và đàn mèo con sắp chào đời...</p>
+                  <a href="https://www.facebook.com/share/18jPw46iXi/?mibextid=wwXIfr" class="btn btn-primary">Đọc tiếp tại fanpage facebook của chúng tôi</a>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Article 2 -->
+            <div class="col-md-6">
+              <div class="card h-100 border-0 shadow-sm">
+                <img src="https://images.pexels.com/photos/1212609/pexels-photo-1212609.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Huấn luyện chó">
+                <div class="card-body">
+                  <div class="d-flex align-items-center mb-2">
+                    <span class="badge bg-primary me-2">Chó cưng</span>
+                    <small class="text-muted">5 tháng 8, 2023</small>
+                  </div>
+                  <h5 class="card-title">5 mẹo huấn luyện chó hiệu quả tại nhà</h5>
+                  <p class="card-text">Huấn luyện chó là một quá trình cần sự kiên nhẫn, nhưng với những mẹo đơn giản này, bạn có thể dạy chó những kỹ năng cơ bản mà không cần đến huấn luyện viên...</p>
+                  <a href="https://www.facebook.com/share/18jPw46iXi/?mibextid=wwXIfr" class="btn btn-primary">Đọc tiếp tại fanpage facebook của chúng tôi</a>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Article 3 -->
+            <div class="col-md-6">
+              <div class="card h-100 border-0 shadow-sm">
+                <img src="https://images.pexels.com/photos/8434440/pexels-photo-8434440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Thức ăn cho thú cưng">
+                <div class="card-body">
+                  <div class="d-flex align-items-center mb-2">
+                    <span class="badge bg-success me-2">Dinh dưỡng</span>
+                    <small class="text-muted">1 tháng 8, 2023</small>
+                  </div>
+                  <h5 class="card-title">Cách chọn thức ăn chất lượng cho thú cưng</h5>
+                  <p class="card-text">Lựa chọn thức ăn phù hợp cho thú cưng là một trong những yếu tố quan trọng nhất để đảm bảo sức khỏe lâu dài. Dưới đây là những tiêu chí bạn nên xem xét...</p>
+                  <a href="https://www.facebook.com/share/18jPw46iXi/?mibextid=wwXIfr" class="btn btn-primary">Đọc tiếp tại fanpage facebook của chúng tôi</a>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Article 4 -->
+            <div class="col-md-6">
+              <div class="card h-100 border-0 shadow-sm">
+                <img src="https://images.pexels.com/photos/5731867/pexels-photo-5731867.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Chăm sóc răng miệng">
+                <div class="card-body">
+                  <div class="d-flex align-items-center mb-2">
+                    <span class="badge bg-warning text-dark me-2">Sức khỏe</span>
+                    <small class="text-muted">28 tháng 7, 2023</small>
+                  </div>
+                  <h5 class="card-title">Chăm sóc răng miệng cho thú cưng đúng cách</h5>
+                  <p class="card-text">Sức khỏe răng miệng là một phần quan trọng trong việc chăm sóc thú cưng tổng thể. Vệ sinh răng miệng kém có thể dẫn đến nhiều vấn đề sức khỏe nghiêm trọng...</p>
+                  <a href="https://www.facebook.com/share/18jPw46iXi/?mibextid=wwXIfr" class="btn btn-primary">Đọc tiếp tại fanpage facebook của chúng tôi</a>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Article 5 -->
+            <div class="col-md-6">
+              <div class="card h-100 border-0 shadow-sm">
+                <img src="https://images.pexels.com/photos/5731840/pexels-photo-5731840.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Chăm sóc lông">
+                <div class="card-body">
+                  <div class="d-flex align-items-center mb-2">
+                    <span class="badge bg-danger me-2">Làm đẹp</span>
+                    <small class="text-muted">25 tháng 7, 2023</small>
+                  </div>
+                  <h5 class="card-title">Bí quyết chăm sóc lông mượt mà cho thú cưng</h5>
+                  <p class="card-text">Một bộ lông khỏe mạnh, sáng bóng không chỉ giúp thú cưng của bạn trông đẹp hơn mà còn là dấu hiệu của sức khỏe tốt. Hãy tìm hiểu các bước chăm sóc lông hiệu quả...</p>
+                  <a href="https://www.facebook.com/share/18jPw46iXi/?mibextid=wwXIfr" class="btn btn-primary">Đọc tiếp tại fanpage facebook của chúng tôi</a>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Article 6 -->
+            <div class="col-md-6">
+              <div class="card h-100 border-0 shadow-sm">
+                <img src="https://images.pexels.com/photos/2607544/pexels-photo-2607544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Du lịch với thú cưng">
+                <div class="card-body">
+                  <div class="d-flex align-items-center mb-2">
+                    <span class="badge bg-secondary me-2">Lifestyle</span>
+                    <small class="text-muted">20 tháng 7, 2023</small>
+                  </div>
+                  <h5 class="card-title">Hướng dẫn du lịch cùng thú cưng an toàn</h5>
+                  <p class="card-text">Du lịch cùng thú cưng có thể là một trải nghiệm tuyệt vời, nhưng nó đòi hỏi sự chuẩn bị kỹ lưỡng. Từ việc lựa chọn điểm đến thân thiện với thú cưng đến việc chuẩn bị hành trang...</p>
+                  <a href="#" class="btn btn-sm btn-outline-primary">Đọc tiếp</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Pagination -->
+          <nav class="mt-5">
+            <ul class="pagination justify-content-center">
+              <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1"><i class="bi bi-chevron-left"></i></a>
+              </li>
+              <li class="page-item active"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#"><i class="bi bi-chevron-right"></i></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        
+        <!-- Sidebar -->
+        <div class="col-lg-4">
+          <!-- Search -->
+          <div class="card border-0 shadow-sm mb-4">
+            <div class="card-body">
+              <h5 class="card-title mb-3">Tìm kiếm</h5>
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Tìm kiếm bài viết...">
+                <button class="btn btn-primary" type="button">
+                  <i class="bi bi-search"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Categories -->
+          <div class="card border-0 shadow-sm mb-4">
+            <div class="card-body">
+              <h5 class="card-title mb-3">Danh mục</h5>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                  <a href="#" class="text-decoration-none text-dark">Chó cưng</a>
+                  <span class="badge bg-primary rounded-pill">14</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                  <a href="#" class="text-decoration-none text-dark">Mèo cưng</a>
+                  <span class="badge bg-primary rounded-pill">8</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                  <a href="#" class="text-decoration-none text-dark">Dinh dưỡng</a>
+                  <span class="badge bg-primary rounded-pill">11</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                  <a href="#" class="text-decoration-none text-dark">Sức khỏe</a>
+                  <span class="badge bg-primary rounded-pill">9</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                  <a href="#" class="text-decoration-none text-dark">Làm đẹp</a>
+                  <span class="badge bg-primary rounded-pill">6</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          
+          <!-- Popular posts -->
+          <div class="card border-0 shadow-sm mb-4">
+            <div class="card-body">
+              <h5 class="card-title mb-3">Bài viết phổ biến</h5>
+              
+              <div class="d-flex mb-3">
+                <img src="https://images.pexels.com/photos/1378849/pexels-photo-1378849.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="rounded" width="70" height="70" alt="Thumbnail">
+                <div class="ms-3">
+                  <h6 class="mb-1"><a href="#" class="text-decoration-none text-dark">Cách chăm sóc chó con mới mua về nhà</a></h6>
+                  <small class="text-muted">15 tháng 8, 2023</small>
+                </div>
+              </div>
+              
+              <div class="d-flex mb-3">
+                <img src="https://images.pexels.com/photos/1170986/pexels-photo-1170986.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="rounded" width="70" height="70" alt="Thumbnail">
+                <div class="ms-3">
+                  <h6 class="mb-1"><a href="#" class="text-decoration-none text-dark">Dinh dưỡng cần thiết cho mèo mang thai</a></h6>
+                  <small class="text-muted">10 tháng 8, 2023</small>
+                </div>
+              </div>
+              
+              <div class="d-flex mb-3">
+                <img src="https://images.pexels.com/photos/1212609/pexels-photo-1212609.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="rounded" width="70" height="70" alt="Thumbnail">
+                <div class="ms-3">
+                  <h6 class="mb-1"><a href="#" class="text-decoration-none text-dark">5 mẹo huấn luyện chó hiệu quả tại nhà</a></h6>
+                  <small class="text-muted">5 tháng 8, 2023</small>
+                </div>
+              </div>
+              
+              <div class="d-flex">
+                <img src="https://images.pexels.com/photos/8434440/pexels-photo-8434440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="rounded" width="70" height="70" alt="Thumbnail">
+                <div class="ms-3">
+                  <h6 class="mb-1"><a href="#" class="text-decoration-none text-dark">Cách chọn thức ăn chất lượng cho thú cưng</a></h6>
+                  <small class="text-muted">1 tháng 8, 2023</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Tags -->
+          <div class="card border-0 shadow-sm mb-4">
+            <div class="card-body">
+              <h5 class="card-title mb-3">Thẻ</h5>
+              <div class="d-flex flex-wrap gap-2">
+                <a href="#" class="btn btn-sm btn-outline-secondary">Chó con</a>
+                <a href="#" class="btn btn-sm btn-outline-secondary">Mèo con</a>
+                <a href="#" class="btn btn-sm btn-outline-secondary">Chăm sóc</a>
+                <a href="#" class="btn btn-sm btn-outline-secondary">Dinh dưỡng</a>
+                <a href="#" class="btn btn-sm btn-outline-secondary">Huấn luyện</a>
+                <a href="#" class="btn btn-sm btn-outline-secondary">Làm đẹp</a>
+                <a href="#" class="btn btn-sm btn-outline-secondary">Sức khỏe</a>
+                <a href="#" class="btn btn-sm btn-outline-secondary">Thức ăn</a>
+                <a href="#" class="btn btn-sm btn-outline-secondary">Du lịch</a>
+                <a href="#" class="btn btn-sm btn-outline-secondary">Phụ kiện</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Newsletter -->
+          <div class="card border-0 shadow-sm bg-primary text-white">
+            <div class="card-body p-4 text-center">
+              <h5 class="card-title mb-3">Đăng ký nhận tin</h5>
+              <p>Nhận những bài viết mới nhất về chăm sóc thú cưng mỗi tuần!</p>
+              <div class="input-group mb-3">
+                <input type="email" class="form-control" placeholder="Email của bạn">
+                <button class="btn btn-light" type="button">Đăng ký</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark text-white">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <h5 class="mb-4">
+            <span class="text-primary">PetShop</span>
+            <span class="text-danger">Samie</span>
+          </h5>
+          <p>Cửa hàng thú cưng uy tín hàng đầu tại Hà Nội, cung cấp các sản phẩm và dịch vụ chăm sóc thú cưng chất lượng cao.</p>
+          <div class="d-flex gap-3 mt-4">
+            <a href="https://www.facebook.com/share/18jPw46iXi/?mibextid=wwXIfr" class="text-white"><i class="bi bi-facebook fs-4"></i></a>
+            <a href="https://www.instagram.com/_nanh._.n?igsh=Nnl4d2g5eG55ZHQ3" class="text-white"><i class="bi bi-instagram fs-4"></i></a>
+            
+            <a href="https://www.tiktok.com/@nanh._.n?_t=ZS-8wFHzUBId9g&_r=1" class="text-white"><i class="bi bi-tiktok fs-4"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-6">
+          <h5 class="mb-4">Danh mục</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Thức ăn cho chó</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Thức ăn cho mèo</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Phụ kiện thú cưng</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Đồ chơi thú cưng</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Sản phẩm mới</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-6">
+          <h5 class="mb-4">Liên kết</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-white">Trang chủ</a></li>
+            <li class="nav-item mb-2"><a href="dich-vu-spa.html" class="nav-link p-0 text-white">Dịch vụ spa</a></li>
+            <li class="nav-item mb-2"><a href="tin-tuc.html" class="nav-link p-0 text-white">Tin tức</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Giới thiệu</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Liên hệ</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <h5 class="mb-4">Liên hệ với chúng tôi</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><i class="bi bi-geo-alt me-2"></i> Số 4, ngõ Chùa Hưng Ký,quận HBT, Hà Nội</li>
+            <li class="nav-item mb-2"><i class="bi bi-telephone me-2"></i> 0395518967</li>
+            <li class="nav-item mb-2"><i class="bi bi-envelope me-2"></i> ngocanh2005@petshophanoi.com</li>
+            <li class="nav-item mb-2"><i class="bi bi-clock me-2"></i> 08:00 - 20:00, Thứ 2 - Chủ nhật</li>
+          </ul>
+        </div>
+      </div>
+      <hr class="my-4">
+      <div class="d-flex flex-column flex-sm-row justify-content-between">
+        <p>&copy; 2023 PetShop Hà Nội. Tất cả các quyền được bảo lưu.</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="text-white" href="#">Điều khoản</a></li>
+          <li class="ms-3"><a class="text-white" href="#">Bảo mật</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
